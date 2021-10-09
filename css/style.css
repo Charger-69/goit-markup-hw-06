@@ -585,30 +585,29 @@ body {
   width: 528px;
   min-height: 581px;
   background-color: #ffffff;
-  /* border-radius: 10px; */
   position: relative;
   transform: scale(1) rotate(0);
-  transition: transform 300ms ease;
+  transition: transform 300ms scale;
 }
 
 .modal-icon {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  fill: #000000;
 }
 
 .close-btn {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   right: 8px;
   top: 8px;
-  /* background-color: transparent;
-    border-radius: 50%; */
-  /* width: 30px;
-    height: 30px; */
-
-  /* display: flex;
-    align-items: center;
-    justify-content: center; */
+  width: 30px;
+  height: 30px;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
 }
 
 /* Portfolio Page */
