@@ -69,7 +69,9 @@ body {
 
 .link {
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -183,6 +185,7 @@ body {
 
 .header-icon {
   margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover .header-icon,
@@ -240,6 +243,7 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -416,6 +420,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
@@ -432,6 +437,7 @@ body {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),;
 }
 
 /*----------- Clients ------------- */
@@ -453,6 +459,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item-link:hover .clients-item-icon,
@@ -469,6 +476,7 @@ body {
   width: 105px;
   height: 60px;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*----------- Footer ------------- */
