@@ -75,6 +75,10 @@ body {
   color: var(--accent-color);
 }
 
+.sub-link {
+  text-decoration: none;
+}
+
 .section-title {
   color: var(--primary-text-color);
   font-weight: 700;
@@ -644,6 +648,7 @@ body {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+  display: block;
 }
 
 .projects-item:hover,
@@ -656,6 +661,34 @@ body {
   border-bottom: solid 1px #eeeeee;
   border-right: solid 1px #eeeeee;
   border-left: solid 1px #eeeeee;
+}
+
+.projects-link:hover .project-items-overlay-text {
+  transform: translateY(0);
+}
+
+.projects-link {
+  display: block;
+}
+
+.project-items-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-items-overlay-text {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 63px;
+  padding-bottom: 63px;
+  background-color: rgba(33, 150, 243, 0.9);
+  transform: translateY(100%);
 }
 
 .projects-title {
