@@ -565,15 +565,23 @@ body {
   margin-top: 12px;
 }
 
+.footer-input-box {
+  display: flex;
+  margin-left: auto; 
+  justify-content: center;
+}
+
+
 .footer-mail-input {
   margin-right: 12px;
   background-color: #2f303a;
-  min-width: 358px;
+  width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  padding-left: 16px;
 }
 
 .footer-mail-input::placeholder {
@@ -583,9 +591,9 @@ body {
 }
 
 .footer-mail-btn {
-  margin-right: -12px;
-  width: 200px;
-  height: 50px;
+  /* margin-right: -12px; */
+  min-width: 200px;
+  min-height: 50px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -627,6 +635,7 @@ body {
   position: relative;
   transform: scale(1) rotate(0);
   transition: transform 300ms scale;
+  
 }
 
 .modal-icon {
