@@ -712,7 +712,7 @@ body {
 
 .input-icon {
   position: absolute;
-  left: 10px;
+  left: 12px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -755,6 +755,27 @@ body {
   border-color: var(--accent-color);
 }
 
+.check-text {
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--primary-text-color);
+  display: flex;
+  margin-bottom: 30px;
+  position: relative;
+  align-items: center;
+}
+
+.check-text span {
+  width: 16px;
+  height: 15px;
+  border: 2px solid #303030;
+  border-radius: 3px;
+  margin-right: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .modal-checkbox-text {
   font-size: 14px;
@@ -766,6 +787,12 @@ body {
 .modal-btn {
   display: block;
   margin: 0 auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 
 /* Portfolio Page */
