@@ -593,20 +593,32 @@ body {
 }
 
 .footer-mail-btn {
-  /* margin-right: -12px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 200px;
   min-height: 50px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-btn-text {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 10px;
+}
+
+.footer-btn-icon {
+  width: 24px;
+  height: 24px;
+  
 }
 
 .backdrop {
@@ -684,6 +696,18 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+  font-size: 16px;
+  line-height: 0.8;
+  letter-spacing: 0.01em;
+  color: #000000
+}
+
+.modal-input:focus {
+  border-color: var(--accent-color);
+}
+
+.modal-input:focus + .input-icon {
+  fill: var(--accent-color);
 }
 
 .input-icon {
@@ -717,7 +741,20 @@ body {
   border: 1px solid #999999;
   background: transparent;
   padding: 10px;
+  outline: none;
 }
+
+.modal-text-input::placeholder {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-text-input:focus {
+  border-color: var(--accent-color);
+}
+
 
 .modal-checkbox-text {
   font-size: 14px;
